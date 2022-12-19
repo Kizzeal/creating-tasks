@@ -24,10 +24,27 @@
 body {
   /* background: hsl(240, 30%, 10%); */
   background: linear-gradient(
-    hsl(240, 30%, 10%),
+    hsl(240, 29%, 10%),
     hsla(153, 47%, 49%, 0.664) 350%
   );
 }
+
+/* something extra from me */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background: #c8d8e8;
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  /* margin-block: 0.5em; */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #121221;
+  border-radius: 100vw;
+}
+
 #nav {
   padding: 30px;
 }
